@@ -63,7 +63,7 @@
 // 6chi masala
 
 // function juftSon(arr){
-//     return arr.filter (function(number) {
+//     return arr.pop (function(number) {
 //         return number % 2 ===0
 //     });
 // }
@@ -76,7 +76,7 @@
 // 7chi masala
 
 // function toqSon(arr){
-//     return arr.filter (function(number) {
+//     return arr.map (function(number) {
 //         return number % 2 !==0
 //     });
 // }
@@ -203,7 +203,7 @@
 // 18 chi masala
 
 // function nusxa(arr){
-// return arr.slice()
+// return arr.upshift()
 // }
 
 // let a = [1,2,3,4,5];
@@ -223,25 +223,3 @@
 // let  a = [4,7,12,5,2];
 // let ortacha = ortaQiymat(a);
 // console.log(ortacha);
-
-// 20chi masala
-
-
-// function find(arr){
-// let massiv =[];
-// let unique ={};
-// arr.forEach (function(item){
-// if (!unique [item]){
-// unique[item]=1;
-// }else{
-// if (unique [item]===1){
-// massiv.push (item)
-// }
-// unique[item]++;
-// }
-// });
-// return massiv;
-// }
-// let arr = [1,2,3,4,1,2,5,6,7,3];
-// let finds = find(arr);
-// console.log(finds);
